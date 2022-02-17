@@ -142,6 +142,10 @@ function SendAdvanced(message, title, subject, icon, timeout, position, progress
         notifications[id] = message
     end
 
+    if Config.Pictures[icon] == nil then
+        icon = "CHAR_DEFAULT"
+    end
+
     AddNotification({
         duplicate   = duplicateID ~= false,
         id          = id,
