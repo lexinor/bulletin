@@ -7,12 +7,12 @@ Config.Theme            = "default"     -- Overridden by the `theme` param
 Config.Queue            = 5             -- No. of notifications to show before queueing
 Config.Stacking         = true
 Config.ShowStackedCount = true
-Config.AnimationOut     = "fadeOut";    -- Exit animation - 'fadeOut', 'fadeOutLeft', 'flipOutX', 'flipOutY', 'bounceOutLeft', 'backOutLeft', 'slideOutLeft', 'zoomOut', 'zoomOutLeft'
+Config.AnimationOut     = "zoomOut";    -- Exit animation - 'fadeOut', 'fadeOutLeft', 'flipOutX', 'flipOutY', 'bounceOutLeft', 'backOutLeft', 'slideOutLeft', 'zoomOut', 'zoomOutLeft'
 Config.AnimationTime    = 500           -- Entry / exit animation interval
-Config.FlashCount       = 5             -- No. of times to flash the notification
+Config.FlashCount       = 2             -- No. of times to flash the notification
 Config.FlashType       = "flash"        -- No. of times to flash the notification
 Config.SoundFile        = false         -- Sound file stored in ui/audio used for notification sound. Leave as false to disable.
-Config.SoundVolume      = 0.4           -- 0.0 - 1.0
+Config.SoundVolume      = 1.0           -- 0.0 - 1.0
 
 -- Pictures for advanced notifications
 --
@@ -264,5 +264,6 @@ Config.Pictures = {
     WEB_SWINGERSBASEBALL             = "Web_swingersbaseball.jpg",
     WEB_TONYMCTONY                   = "Web_tonymctony.jpg",
     WEB_VINEWOODLIONEL67             = "Web_vinewoodlionel67.jpg",
-    WEB_YOURNEWBABYSNAME             = "Web_yournewbabysname.jpg"
+    WEB_YOURNEWBABYSNAME             = "Web_yournewbabysname.jpg",
+    WEAZELNEWS_LOGO                  = "weazelnews_logo64.jpg",
 }
