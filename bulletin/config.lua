@@ -10,8 +10,8 @@ Config.ShowStackedCount = true
 Config.AnimationOut     = "zoomOut";    -- Exit animation - 'fadeOut', 'fadeOutLeft', 'flipOutX', 'flipOutY', 'bounceOutLeft', 'backOutLeft', 'slideOutLeft', 'zoomOut', 'zoomOutLeft'
 Config.AnimationTime    = 500           -- Entry / exit animation interval
 Config.FlashCount       = 2             -- No. of times to flash the notification
-Config.FlashType       = "flash"        -- No. of times to flash the notification
-Config.SoundFile        = false         -- Sound file stored in ui/audio used for notification sound. Leave as false to disable.
+Config.FlashType        = "flash"        -- No. of times to flash the notification
+Config.SoundFile        = "roblox.mp3"         -- Sound file stored in ui/audio used for notification sound. Leave as false to disable.
 Config.SoundVolume      = 1.0           -- 0.0 - 1.0
 
 -- Pictures for advanced notifications
