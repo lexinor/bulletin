@@ -8,11 +8,11 @@ Config.Queue            = 5             -- No. of notifications to show before q
 Config.Stacking         = true
 Config.ShowStackedCount = true
 Config.AnimationOut     = "zoomOut";    -- Exit animation - 'fadeOut', 'fadeOutLeft', 'flipOutX', 'flipOutY', 'bounceOutLeft', 'backOutLeft', 'slideOutLeft', 'zoomOut', 'zoomOutLeft'
-Config.AnimationTime    = 500           -- Entry / exit animation interval
+Config.AnimationTime    = 500          -- Entry / exit animation interval
 Config.FlashCount       = 2             -- No. of times to flash the notification
 Config.FlashType        = "flash"       -- No. of times to flash the notification
-Config.SoundFile        = "roblox.mp3"  -- Sound file stored in ui/audio used for notification sound. Leave as false to disable.
-Config.SoundVolume      = 1.0           -- 0.0 - 1.0
+Config.SoundFile        = "doorbell-notification.mp3"  -- Sound file stored in ui/audio used for notification sound. Leave as false to disable.
+Config.SoundVolume      = 0.5           -- 0.0 - 1.0
 
 -- Pictures for advanced notifications
 --

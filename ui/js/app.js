@@ -151,7 +151,7 @@ class Notification {
         this.exitAnim = exitAnim;
         this.flash = flash;
         this.count = 1;
-
+        
         if ( pin_id ) {
             this.pin_id = pin_id;
             pinned[pin_id] = this;
