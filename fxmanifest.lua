@@ -11,7 +11,6 @@ version '1.1.9'
 client_scripts {
     'config.lua',
     'bulletin.lua',
-    'demo.lua'
 }
 
 ui_page 'ui/ui.html'
