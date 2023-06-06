@@ -266,4 +266,6 @@ Config.Pictures = {
     WEB_VINEWOODLIONEL67             = "Web_vinewoodlionel67.jpg",
     WEB_YOURNEWBABYSNAME             = "Web_yournewbabysname.jpg",
     WEAZELNEWS_LOGO                  = "weazelnews_logo64.jpg",
+    BEANMACHINE_LOGO                 = "BeanMachine_64.jpg",
+    UPNATOM_LOGO                     = "UpNAtom_64.jpg",
 }
